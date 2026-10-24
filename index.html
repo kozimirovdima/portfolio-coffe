@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Утро | Кофейня</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ШАПКА -->
+  <header class="topbar container">
+    <a href="#" class="logo">Утро</a>
+    <nav class="nav">
+      <a href="#menu">Меню</a>
+      <a href="#about">О нас</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ПЕРВЫЙ ЭКРАН -->
+    <section class="hero container">
+      <div class="hero-text">
+        <p class="eyebrow">Кофейня · [город]</p>
+        <h1>Утро начинается с хорошего кофе.</h1>
+        <p class="lead">Свежая обжарка, домашняя выпечка и тихий уголок, где можно никуда не спешить.</p>
+        <a href="#menu" class="btn">Смотреть меню</a>
+      </div>
+      <!-- ФОТО 1: положи файл images/hero.webp -->
+      <img class="photo photo-tall" src="images/i.jpg" alt="Интерьер кофейни">
+    </section>
+
+    <!-- МЕНЮ -->
+    <section id="menu" class="container section">
+      <h2>Меню</h2>
+      <div class="menu-grid">
+
+        <article class="card">
+          <!-- ФОТО 2: images/espresso.webp -->
+          <img src="images/2.jpg" alt="Эспрессо">
+          <h3>Эспрессо</h3>
+          <p>Насыщенный, с плотной пенкой.</p>
+          <p class="price">[цена]</p>
+        </article>
+
+        <article class="card">
+          <!-- ФОТО 3: images/cappuccino.webp -->
+          <img src="images/3.jpg" alt="Капучино">
+          <h3>Капучино</h3>
+          <p>Нежная молочная пена.</p>
+          <p class="price">[цена]</p>
+        </article>
+
+        <article class="card">
+          <!-- ФОТО 4: images/filter.webp -->
+          <img src="images/4" alt="Фильтр-кофе">
+          <h3>Фильтр-кофе</h3>
+          <p>Мягкий вкус, сорт на выбор.</p>
+          <p class="price">[цена]</p>
+        </article>
+
+        <article class="card">
+          <!-- ФОТО 5: images/croissant.webp -->
+          <img src="images/5.jpg" alt="Круассан">
+          <h3>Круассан</h3>
+          <p>Свежий, каждое утро.</p>
+          <p class="price">[цена]</p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- О НАС -->
+    <section id="about" class="container section about">
+      <!-- ФОТО 6: images/about.webp -->
+      <img class="photo" src="images/6.jpg" alt="Бариста за работой">
+      <div>
+        <h2>О нас</h2>
+        <p>[Расскажи историю кофейни в 2-3 предложениях: кто вы, откуда зерно, что делает место особенным.]</p>
+        <p>[Одно предложение о подходе: например, о выпечке или атмосфере.]</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- КОНТАКТЫ -->
+  <footer id="contacts" class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h2>Заходите в гости</h2>
+        <p>ул. Улыбок 228\к3</p>
+      </div>
+      <div>
+        <h3>Часы работы</h3>
+        <p>Пн-Пт: [8:00-16:00]<br>Сб-Вс: [10:00-14:00]</p>
+      </div>
+      <div>
+        <h3>Связь</h3>
+        <p><a href="mailto:hello@example.com">vkuscoffe@gmail.com</a><br>+7-999-635-57-36</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
